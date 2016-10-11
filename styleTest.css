@@ -1,0 +1,65 @@
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-10px) scale(11.05);
+}
+
+img {
+  width: 100%;
+}
+
+.contenu {
+  margin-top: 300px;
+  background-color: black;
+  min-height: 800px;
+}
+
+header {
+  height: 150px;
+  text-align: center;
+  background-color: black;
+}
+
+body {
+  font: 200% / 1.5 Arial;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+[class*="col"] {
+  color: white;
+  padding: 20px;
+  background-color: #222;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+body {
+  background-color: black;
+}
